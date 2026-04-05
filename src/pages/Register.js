@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { registerUser } from "../services/api";
-import { RiUserAddLine, RiMailLine, RiLockLine, RiEyeLine, RiEyeOffLine, RiCheckLine } from "react-icons/ri";
+import { RiLockLine } from 'react-icons/ri';
 
 const getStrength = (pw) => {
   if (!pw) return { score: 0, label: "", level: "" };
