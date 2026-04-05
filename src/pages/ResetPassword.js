@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { validateToken, resetPassword } from "../services/api";
-import { RiLockLine } from 'react-icons/ri';
+import { RiTimeLine, RiCheckDoubleLine, RiEyeOffLine, RiEyeLine } from 'react-icons/ri';
 
 const getStrength = (pw) => {
   if (!pw) return { score: 0, label: "", level: "" };
