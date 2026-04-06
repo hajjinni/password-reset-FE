@@ -46,7 +46,7 @@ src/
  └── index.js
 ```
 
-## ▶️ Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
@@ -66,9 +66,6 @@ npm install
 ```
 npm start
 ```
-
-App will run on:
- http://localhost:3000
 
 ---
 
